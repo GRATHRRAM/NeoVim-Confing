@@ -1,9 +1,10 @@
 return {
-    "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
-    config = function()
-	    ensure_installed = {"lua" , "c" , "cpp"}
-        highlight = { enable = true }
-        indent = { enable = true }
-    end
+	"nvim-treesitter/nvim-treesitter",
+	build = ":TSUpdate",
+	config = function()
+		ensure_installed = { "lua", "c", "cpp" }
+		highlight = { enable = true }
+		indent = { enable = true }
+		auto_install = true
+	end,
 }
