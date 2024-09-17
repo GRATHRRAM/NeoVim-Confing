@@ -12,8 +12,6 @@ return {
                 ensure_installed = {
                     "lua_ls",
                     "clangd",
-                    "ast_grep",
-                    "asm_lsp"
                 }
             })
         end
