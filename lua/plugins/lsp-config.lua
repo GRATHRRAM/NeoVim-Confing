@@ -22,8 +22,6 @@ return {
             local lspconfig = require("lspconfig")
             lspconfig.lua_ls.setup({})
             lspconfig.clangd.setup({})
-            lspconfig.ast_grep.setup({})
-            lspconfig.asm_lsp.setup({})
 
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
