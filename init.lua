@@ -9,6 +9,7 @@ vim.cmd("set number")
 
 vim.cmd("tnoremap <Esc> <C-\\><C-n> ")
 vim.cmd("nnoremap <C-a> :vs term://bash<CR>")
+vim.cmd("nnoremap <C-s> :TransparentToggle<CR>")
 
 vim.g.mapleader = " "
 

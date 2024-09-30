@@ -8,5 +8,6 @@ return {
     },
     config = function()     
         vim.keymap.set('n', '<C-f>', ':Neotree focus filesystem right<CR>', {})
+        require('transparent').clear_prefix('NeoTree')
     end
 }
